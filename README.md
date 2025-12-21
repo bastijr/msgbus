@@ -7,4 +7,13 @@ A high-performance C++ message bus framework built on ZeroMQ + Protobuf, support
 - CMake cross-platform build system
 - Includes usage samples, unit tests, and performance tests
 
-More coming soon!
+## Documentation
+
+- **[MCP Working Principles (中文)](MCP.md)** - Understanding Model Context Protocol and its integration with msgbus
+- **[MCP Working Principles (English)](MCP_EN.md)** - Understanding Model Context Protocol and its integration with msgbus
+
+## Coming Soon
+
+- Full implementation and source code
+- Build instructions and examples
+- API documentation

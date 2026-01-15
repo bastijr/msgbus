@@ -11,11 +11,11 @@ More coming soon!
 
 ## Developed with OpenCode
 
-This project can be developed using [OpenCode](https://github.com/anomalyco/opencode), an open source AI coding agent. OpenCode is a powerful development tool that provides:
+This project was developed using [OpenCode](https://github.com/anomalyco/opencode), an open source AI coding agent that provides:
 
 - 100% open source AI coding assistance
 - Support for multiple AI providers (Claude, OpenAI, Google, local models)
-- Built-in LSP support for enhanced code intelligence
+- Built-in Language Server Protocol (LSP) support for enhanced code intelligence
 - Terminal-focused user interface (TUI)
 - Multiple specialized agents for different development tasks
 

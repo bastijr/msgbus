@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rd-english-mentor"
+version = "0.1.0"
+description = "R&D Career English Mentor — AI coaching for Chinese engineers"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "openai>=1.0.0",
+]
+
+[project.scripts]
+rd-mentor = "mentor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mentor*"]
